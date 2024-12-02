@@ -1,0 +1,18 @@
+import random
+import statistics
+s1=int(input('Enter a Start value: '))
+s2=int(input('Enter a Stop value: '))
+s3=int(input('Enter a Step value: '))
+a1=random.randrange(s1,s2,s3)
+a2=random.randrange(s1,s2,s3)
+a3=random.randrange(s1,s2,s3)
+a4=random.randrange(s1,s2,s3)
+a5=random.randrange(s1,s2,s3)
+a6=random.randrange(s1,s2,s3)
+print('Generated numbers:',a1,a2,a3,a4,a5,a6 )
+mean=statistics.mean([a1,a2,a3,a4,a5,a6])
+mode=statistics.mode([a1,a2,a3,a4,a5,a6])
+median=statistics.median([a1,a2,a3,a4,a5,a6])
+print('Mean of the Data:',mean)
+print('Mode of the Data:',mode)
+print('Median of the Data:',median)

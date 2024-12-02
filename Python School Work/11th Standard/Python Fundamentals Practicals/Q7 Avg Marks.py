@@ -1,0 +1,6 @@
+a = int(input('Enter marks in 1st subject : '))
+b = int(input('Enter marks in 2nd subject : '))
+c = int(input('Enter marks in 3rd subject : '))
+d = int(input('Enter marks in 4th subject : '))
+e = int(input('Enter marks in 5th subject : '))
+print((a+b+c+d+e)/5)

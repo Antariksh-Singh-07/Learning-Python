@@ -1,0 +1,8 @@
+m=float(input('Enter Temperature on Monday: '))
+t1=float(input('Enter Temperature on Tuesday: '))
+w=float(input('Enter Temperature on Wednesday: '))
+t2=float(input('Enter Temperature on Thursday: '))
+f=float(input('Enter Temperature on Friday: '))
+s1=float(input('Enter Temperature on Saturday: '))
+s2=float(input('Enter Temperature on Sunday: '))
+print('Average Temperature =',(m+t1+w+t2+f+s1+s1)/7)

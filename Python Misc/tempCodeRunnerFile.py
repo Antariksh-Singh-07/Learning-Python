@@ -1,0 +1,3 @@
+
+        GoodString(strg)
+dhaga = "LeEetcodeEeeEEE"

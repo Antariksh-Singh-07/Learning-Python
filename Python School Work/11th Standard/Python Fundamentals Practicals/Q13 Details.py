@@ -1,0 +1,7 @@
+n=input("Enter your name: ")
+c=input("Enter your class: ")
+a=int(input("Enter your age: "))
+print(n,',',c,',',a)
+print()
+print()
+print(str(n)+'\n'+str(c)+'\n'+str(a))

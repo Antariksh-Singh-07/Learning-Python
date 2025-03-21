@@ -1,3 +1,0 @@
-
-        GoodString(strg)
-dhaga = "LeEetcodeEeeEEE"

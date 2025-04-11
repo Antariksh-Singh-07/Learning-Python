@@ -1,0 +1,359 @@
+Q1. Make a calculator with user input of num1 and num2,
+it should do all four arithmetic operations. [by Me]
+
+Q2. Write a Python program to convert temperature in
+degree Celsius to degree Fahrenheit. If water boils
+at 100 degree C and freezes as 0 degree C, use the
+program to find out what is the boiling point and
+freezing point of water on the Fahrenheit scale.
+(Hint: T(°F) = T(°C) × 9/5 + 32)
+
+Q3. Write a Python program to calculate the amount
+payable if money has been lent on simple interest.
+Principal or money lent = P, Rate of interest = R%
+per annum and Time = T years. Then Simple Interest
+(SI) = (P x R x T)/ 100.
+Amount payable = Principal + SI.
+P, R and T are given as input to the program.
+
+Q4. Write a program to calculate in how many days a
+work will be completed by three persons A, B and
+C together. A, B, C take x days, y days and z days
+respectively to do the job alone. The formula to
+calculate the number of days if they work together
+is xyz/(xy + yz + xz) days where x, y, and z are given
+as input to the program.
+
+Q5. Write a program that asks the user
+to enter their name and age. Print a
+message addressed to the user that tells the user
+the year in which they will turn 100 years old.
+
+Q6. Presume that a ladder is put upright against
+a wall. Let variables length and angle store
+the length of the ladder and the angle that
+it forms with the ground as it leans against
+the wall. Write a Python program to compute
+the height reached by the ladder on the
+wall for the following values of length and angle:
+	a) 16 feet and 75 degrees
+	b) 20 feet and 0 degrees
+	c) 24 feet and 45 degrees
+	d) 24 feet and 80 degrees
+
+Q7. Write a function to print the table of a given number.
+The number has to be entered by the user.
+
+Q8. Write a program to generate the sequence: –5, 10,
+–15, 20, –25….. upto n, where n is an integer input
+by the user.
+
+Q9. Write a program to find the sum of 1+ 1/8 +
+1/27......1/n3, where n is the number input by the
+user.
+
+Q10. Write a function that checks whether an input
+number is a palindrome or not.
+[Note: A number or a string is called palindrome if it
+appears same when written in reverse order also. For
+example, 12321 is a palindrome while 123421 is not a
+palindrome]
+
+Q11. Try to make different patterns, it will require a nested loop
+*
+* *
+* * *
+* * * *
+* * * * *
+something like this, try to play with the loops, change the values you put,
+make it so it displays numbers, numbers but increasing or decreasing,
+with each line or with each iteration, alphabets or anything you wish
+this was a right angled triangle, try to make a pyramid maybe or
+a right angled triangle but from right side (the eg one is from left)
+This will really help you understand loops... [by Me]
+
+Q12. Make a program that uses a while loop to take input of user's name 
+and age as long as they want to keep giving inputs, afterwards check if 
+they are elidgible for any certain thing related to age [show me your 
+creativity; by Me]
+
+Q13. Remember the calculator you made in Q1? make that 
+code in such a way that it continues to run back and forth
+until and unless the user doesn't want to calculate anymore.
+All I mean is use while loop and make it so it loops so we 
+can calulate as long as we want. [by Me]
+
+Note to you after Q13: Read theory about String List Tuple and
+Dictionary Functions, well, this will help a lot. I can't possibly
+list every functions's related questions. 
+Also acc to NCERT User Defined Functions is followed after 
+flow of control, so I'll also give Functions questions from now on.
+Annnnd, also study about Random module and Math module
+
+Indexing, its a very very important topic, learn about it thorougly 
+
+Q14. Write a program to input line(s) of text from the user
+until enter is pressed. Count the total number of
+characters in the text (including white spaces),total
+number of alphabets, total number of digits, total
+number of special symbols and total number of
+words in the given text.
+Hint by Me: You have to use while loop for inputs
+and diff string functions to do the rest...
+
+Q15. Write a program to check the divisibility of a
+number by 7 that is passed as a parameter to the
+user defined function.
+
+Q16. Write a program that uses a user defined function
+that accepts name and gender (as M for Male,
+F for Female) and prefixes Mr/Ms on the basis of
+the gender.
+
+Q17. Write a program that has a user defined function
+to accept the coefficients of a quadratic equation
+in variables and calculates its determinant. For
+example : if the coefficients are stored in the
+variables a,b,c then calculate determinant as
+b2-4ac. Write the appropriate condition to check
+determinants on positive, zero and negative and
+output appropriate result.
+
+Q18. ABC School has allotted unique token IDs from (1 to
+600) to all the parents for facilitating a lucky draw
+on the day of their Annual day function. The winner
+would receive a special prize. Write a program using
+Python that helps to automate the task.(Hint: use
+random module)
+
+Q19. Write a program that implements a user defined
+function that accepts Principal Amount, Rate,
+Time, Number of Times the interest is compounded
+to calculate and displays compound interest.
+(Hint: CI=P*(1+r/n)^nt)
+
+Q20. Input a string having some digits. Write a function
+to return the sum of digits present in this string.
+
+Q21. Write a function that takes a sentence as an input
+parameter where each word in the sentence is
+separated by a space. The function should replace
+each blank with a hyphen and then return the
+modified sentence.
+
+I won't be including questions purely based on in built
+function usage so please practice them from the books
+(if you need the e-books, I'll send them)
+
+Q22. Write a program to find the number of times an
+element occurs in the list.
+
+Q23. Write a program to read a list of n integers (positive
+as well as negative). Create two new lists, one
+having all positive numbers and the other having
+all negative numbers from the given list. Print all
+three lists.
+
+Q24. Write a program to read a list of n integers and find
+their median.
+Note: The median value of a list of values is the
+middle one when they are arranged in order. If there
+are two middle values then take their average.
+Hint: You can use an built-in function to sort the list
+
+Q25. Write a program to read a list of elements. Modify
+this list so that it does not contain any duplicate
+elements, i.e., all elements occurring multiple times
+in the list should appear only once.
+
+Q26. Write a program to read elements of a list.
+	a) The program should ask for the position of
+	the element to be deleted from the list. Write
+	a function to delete the element at the desired
+	position in the list.
+	
+	b) The program should ask for the value of the
+	element to be deleted from the list. Write a
+	function to delete the element of this value
+	from the list.
+
+[if you want, make another program for inserting 
+the value rather than deleting]
+
+Q27. Write a program to read email IDs of n number of
+students and store them in a tuple. Create two new
+tuples, one to store only the usernames from the
+email IDs and second to store domain names from
+the email IDs. Print all three tuples at the end of the
+program. [Hint: You may use the function split()]
+
+Q28. Write a program to input names of n students and
+store them in a Tuple. Also, input a name from the
+user and find if this student is present in the tuple or not.
+[You can write a code or use a built-in function, do any of these]
+
+Q29. Write a Python program to find the highest 2 values
+in a dictionary.
+
+Q30. Write a Python program to create a dictionary from
+a string.
+Note: Track the count of the letters from the string.
+Sample string : 'w3resource'
+Expected output : {'3': 1, 's': 1, 'r': 2, 'u': 1, 'w': 1, 'c': 1,
+'e': 2, 'o': 1}
+
+Q31. Write a program to input your friends’ names
+and their Phone Numbers and store them in the
+dictionary as the key-value pair. Perform the
+following operations on the dictionary:
+	a) Display the name and phone number of all your
+	friends
+	
+	b) Add a new key-value pair in this dictionary and
+	display the modified dictionary
+	
+	c) Delete a particular friend from the dictionary
+	
+	d) Modify the phone number of an existing friend
+	
+	e) Check if a friend is present in the dictionary or
+	not
+	
+	f) Display the dictionary in sorted order of names
+
+Q32. Remember the calculator you made in Q13? make that 
+code in such a way that it includes exeption handling.
+Zero Division error, Input related errors or anyother 
+you can think of... make the calculator exeptionless.
+[by Me]
+
+Q33. Make a program that reads a text file and Count
+the total number of characters (including white spaces),
+total number of alphabets, total number of digits,
+total number of special symbols and total number of
+words. [by Me]
+
+Q34. Similarly, make a function that takes a letter, word,
+or anything in string format and count how many time it
+occured in the text. [by Me]
+
+Q35. Make a program that creates a copy of the content of 
+the txt file you read and writes that into a new txt file.
+
+Q36. Instead of Creating a new txt file, copy and append the
+content of one txt file to another existing txt file.
+
+Q37. Make a program to check if a line in a text file is starting
+or ending with a character the user inputs. (you should ask if
+checking start or ending, also note that a new line character is
+placed in the end of each line '\n' this is considered as one 
+whole character not two, this is one of many escape characters) [by Me]
+
+Q38. Make a program that reads a txt file and does not include the lines
+starting with, let's say 'so' and writes them into a new text file. [so if a 
+file contains 5 lines and one of the lines start with 'so' then that line
+won't be written into the new text file] [by Me]
+
+Q39. Make a program that reads a txt file and checks for a specific 
+symbol, let's say '&' and then writes all the content upto the symbol
+'&' into a new text file. [so if a file contains 400 words and one of those
+words is or has '&' in it, then the code will write everything before the
+'&' into a new file] [by Me]
+
+Q40. Make a program that takes user input of string lines as long as they
+want and then write those line to brand new file.
+[use write(), this has to be inserted into every iteration of the loop.
+make the same program but use writelines(), in this you have to make a
+list from the user inputs with list's append() function in each iteration
+of the loop and then outside of the loop writelines(<list name>)] [by Me]
+
+Q41. Make the following questions of txt files but take the reading file 
+a binary file (.dat) and make the changes required: Q33 to Q36. [by Me]
+
+Q42. A binary file "student.dat" has structure [admission_number, Name, Percentage].
+	a. Write a function takedata() in Python that would take input from the data to 
+	put into the file "student.dat" for as long as they want.
+	
+	b. Write a function countrec() in Python that would read contents of the file
+	"student.dat" and display the details of those students whose percentage is above 75.
+	Also display number of students scoring above 75%.
+
+Q43. A binary file "Book.dat" has structure [BookNo, Book_Name, Author, Price].
+	a. Write a user defined function CreateFile() to input data for a record and add to "Book.dat".
+	
+	b. Write a function CountRec(Author) in Python which accepts the Author name as parameter and
+	count and return number of books by the given Author are stored in the binary file "Book.dat".
+
+Q44. Q3 Writea nct•on In pyt on to searc an Isp ay etal s, w ose est•natlon IS
+"Cochin" from binary file "Bus.Dat". Assuming the binary file is containing the following
+elements in the list: [Bus Number, Bus Starting Point, Bus Destination]
+
+Q45.Write a program to read all the data from any csv file and another code
+to read all the data from any binary file and print the whole data. [by Me]
+
+Q46. Write a program to search the record from "data.csv"
+according to the admission number input from the user. Structure
+of record saved in "data.csv" is Adm no, Name, Class, Section,
+Marks
+
+Q47. Write a program to add/insert records in file "data.csv".
+Structure of a record is roll number, name and class.
+
+Q48. Write a program to read all content of "student.csv" and
+display records and the no. of only those students who scored more 
+than 80 marks. Records stored in students is in format : Rollno, Name,
+Marks
+
+Q49. Write a program to display all the records from product.csv
+whose price is more than 300 also display the total no. of products
+whose price is more than 300. Format of record stored in
+product.csv is product id, product name, price.
+
+Q50. Write a program to count number of records present in
+"data.csv" file.
+
+Q51. Case based
+	a. Write a program to calculate the sum of all the marks given in
+	the file "marks.csv. Records in "marks.csv" are as follows .
+	Rollno, Name, Marks
+	1, Suman, 67
+	2, Aman,71
+	3, Mini, 68
+	4, Amit, 80
+	
+	b. Write a program to modify the record of a student in a file
+	"data.csv". Following records are saved in file.
+	Rollno, Name, Marks
+	1, Aman, 35
+	2, Kanak, 1
+	3, Anuj, 33
+	4, suman, 25
+	
+	c. Write a program to show the detail of the student who
+	scored the highest marks. Data stored in "Data.csv" is given below :
+	Rollno, Name, Marks
+	1, Aman, 35
+	2, Kanak, 1
+	3, Anuj, 33
+	4, suman, 25
+	
+Q52. Stack Functions, these should be made by following stack etiquettes:
+	a. Write a python function named is_underflow() to check a stack is an underflow.
+
+	b. Write a function push(item) to push an element into the stack.
+
+	c. Write a python function pop() to delete an element from the stack.
+
+	d. Write a function display() to display the stack elements.
+
+	e. Write a function peek() to inspect an element from the stack.
+
+Q53. Write functions AddPlayer(player) and DeletePlayer(player) in python to add 
+and remove a player by considering them as push and pop operations in a stack.
+
+Q54. Vedika has created a dictionary containing names and marks as key-value pairs
+of 5 students. Write a program, with separate user-defined functions to perform the
+following operations:
+	a. Push the keys (name of the student) of the dictionary into a stack, where the 
+	corresponding value (marks) is greater than 70.
+	b. Pop and display the content of the stack after change.
